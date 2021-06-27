@@ -1,0 +1,95 @@
+html, body {
+    background-color: rgb(19, 19, 19);
+    background-image: url(Static/lando-4341625_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0, auto;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+header {
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
+
+#close {
+    color: white;
+    float: right;
+    width: 50px;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+}
+
+.close-btn {
+    filter: invert(99%) sepia(97%) saturate(0%) hue-rotate(81deg) brightness(107%) contrast(100%);
+}
+
+.close-btn:hover {
+    filter: invert(20%) sepia(95%) saturate(5985%) hue-rotate(333deg) brightness(95%) contrast(113%);
+    cursor: pointer;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.selector {
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.dropdown {
+    background: transparent;
+    border: 1px solid rgb(61, 61, 61);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 12pt;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.option {
+    background: none;
+    border: 1px solid rgb(61, 61, 61);
+    color: black;
+}
+
+#start {
+    position: absolute;
+    left: 320px;
+    top: 90px;
+    width: 150px;
+    height: 40px;
+    background: rgb(0, 219, 0);
+    color: white;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: none;
+}
+
+#start:hover {
+    cursor: pointer;
+    background: rgb(81, 255, 0);
+}

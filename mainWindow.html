@@ -9,6 +9,22 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <header class="header" style="-webkit-app-region: drag">
+            <img class="logo" src="">
+            <div id="close" onclick="window.close()" style="-webkit-app-region: no-drag">
+                <img src="Static/close.svg" class="close-btn">
+            </div>
+            <form class="selector" style="-webkit-app-region: no-drag">
+                <select class="dropdown" name = "dropdown">
+                   <option class="option" value = "2019" selected>F1™ 2019</option>
+                   <option class="option" value = "2020">F1™ 2020</option>
+                   <option class="option" value = "dirt4">Dirt® 4</option>
+                   <option class="option" value = "dirt-rally">DirtRally® 2</option>
+                </select>
+             </form>
+             <button id="start" style="-webkit-app-region: no-drag">Race!</button>
+        </header>
+        <div class="background">
         
         <script src="index.js" async defer></script>
     </body>
