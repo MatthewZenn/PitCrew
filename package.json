@@ -1,0 +1,22 @@
+{
+  "name": "pitcrew",
+  "version": "1.0.0",
+  "description": "live telemetry interface fro CodeMasters games",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewZenn/PitCrew.git"
+  },
+  "author": "Matthew Zenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewZenn/PitCrew/issues"
+  },
+  "homepage": "https://github.com/MatthewZenn/PitCrew#readme",
+  "dependencies": {
+    "electron": "^13.1.4"
+  }
+}
